@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     mailtoButtons.forEach(function(button) {
         button.addEventListener("click", function () {
             // Define the email address and subject
-            var emailAddress = "whitephoenix@cyberark.com";
+            var emailAddress = "bytecodellm@cyberark.com";
 
             // Encode the email address and subject for the mailto link
             var mailtoLink = "mailto:" + encodeURIComponent(emailAddress);
